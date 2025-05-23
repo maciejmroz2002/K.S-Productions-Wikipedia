@@ -1,0 +1,80 @@
+.title {
+    background-color: #ffdd00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.allEpisodes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: #ff00003a;
+    margin: 10px;
+    padding: 10px;
+}
+
+.episode {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: #fff372b8;
+    margin: 10px;
+    padding: 20px;
+}
+
+.episode a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    margin : 10px;
+    border-radius: 5px;
+}
+
+.episodeTitle {
+    background-color: #ffdd00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+
+.episodeImg {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.episodeDescription {
+    background-color: #ffdd00;
+    display: flex;
+    align-items: start;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-transform: none;
+    flex-flow: column nowrap;
+    gap: 5px;
+}
+
+.episodeDescription h2 {
+    margin-top: 25px;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    margin: 10px;
+    background-color: #ffdd00;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: min-content;
+    
+    
+}
+nav ul li {
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    background-color: #ff0000;
+    border: #000 2px solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #000;
+    color: #fff;
+}
+nav ul li:hover {
+    transform: scale(1.1);
+}
+
+#logoImg {
+    height: 70px;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    height: 200px;
+    background-color: #fff372b8;
+    margin: 10px;
+    padding: 30px;
+}
+
